@@ -1,0 +1,21 @@
+[
+    {
+        "arguments": [
+            "c++",
+            "-c",
+            "-Wall",
+            "-I/usr/lib/wx/include/gtk3-unicode-3.0",
+            "-I/usr/include/wx-3.0",
+            "-D_FILE_OFFSET_BITS=64",
+            "-DWXUSINGDLL",
+            "-D__WXGTK__",
+            "-pthread",
+            "-pthread",
+            "-o",
+            "run_focusbox",
+            "src/main.cc"
+        ],
+        "directory": "/home/doug/Coding/focusbox",
+        "file": "src/main.cc"
+    }
+]
